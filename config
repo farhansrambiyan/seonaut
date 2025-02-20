@@ -1,14 +1,14 @@
 [server]
 host = "0.0.0.0"
 port = 9000
-url = "https://crawl.far.hn"
+url = "seonaut-production.up.railway.app"
 
 [database]
 server = "mysql.railway.internal"
+port = 3306
 user = "root"
 password = "yngwbhNXIYXoYfGbWnZjfIMotvzkgAVM"
 database = "railway"
-port = 3306
 
 [crawler]
 agent = "Mozilla/5.0 (compatible; SEOnautBot/1.0; +https://seonaut.org/bot)"
