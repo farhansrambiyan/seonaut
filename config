@@ -4,11 +4,11 @@ port = 9000
 url = "http://localhost:9000"
 
 [database]
-server = "db"
+server = "mysql.railway.internal"
+user = "root"
+password = "yngwbhNXIYXoYfGbWnZjfIMotvzkgAVM"
+database = "railway"
 port = 3306
-user = "seonaut"
-password = "seonaut"
-database = "seonaut"
 
 [crawler]
 agent = "Mozilla/5.0 (compatible; SEOnautBot/1.0; +https://seonaut.org/bot)"
